@@ -1,0 +1,1233 @@
+
+<xs: skema
+  xmlns: xs = 'http: //www.w3.org/2001/XMLSchema'
+  targetNamespace = 'http: //schemas.android.com/apk/res/android'
+  xmlns: android = 'http: //schemas.android.com/apk/res/android'>
+
+<xs: atribut name = 'cacheColorHint' type = 'xs: string' />
+<xs: atribut name = 'choiceMode' type = 'xs: string' />
+<xs: atribut name = 'drawSelectorOnTop' type = 'xs: string' />
+<xs: atribut name = 'fastScrollAlwaysVisible' type = 'xs: string' />
+<xs: atribut name = 'fastScrollEnabled' type = 'xs: string' />
+<xs: atribut name = 'listSelector' type = 'xs: string' />
+<xs: atribut name = 'scrollingCache' type = 'xs: string' />
+<xs: atribut name = 'smoothScrollbar' type = 'xs: string' />
+<xs: atribut name = 'stackFromBottom' type = 'xs: string' />
+<xs: atribut name = 'textFilterEnabled' type = 'xs: string' />
+<xs: atribut name = 'transcriptMode' type = 'xs: string' />
+<xs: atribut name = 'entries' type = 'xs: string' />
+<xs: atribut name = 'layout_x' type = 'xs: string' />
+<xs: atribut name = 'layout_y' type = 'xs: string' />
+<xs: atribut name = 'factor' type = 'xs: string' />
+<xs: atribut name = 'AksesibilitasEventTypes' type = 'xs: string' />
+<xs: atribut name = 'AksesibilitasFeedbackType' type = 'xs: string' />
+<xs: atribut name = 'AksesibilitasFlags' type = 'xs: string' />
+<xs: atribut name = 'canRetrieveWindowContent' type = 'xs: string' />
+<xs: atribut name = 'description' type = 'xs: string' />
+<xs: atribut name = 'notificationTimeout' type = 'xs: string' />
+<xs: atribut name = 'packageNames' type = 'xs: string' />
+<xs: atribut name = 'settingsActivity' type = 'xs: string' />
+<xs: atribut name = 'accountPreferences' type = 'xs: string' />
+<xs: atribut name = 'accountType' type = 'xs: string' />
+<xs: atribut name = 'customTokens' type = 'xs: string' />
+<xs: atribut name = 'icon' type = 'xs: string' />
+<xs: atribut name = 'label' type = 'xs: string' />
+<xs: atribut name = 'smallIcon' type = 'xs: string' />
+<xs: atribut name = 'background' type = 'xs: string' />
+<xs: atribut name = 'backgroundSplit' type = 'xs: string' />
+<xs: atribut name = 'backgroundStacked' type = 'xs: string' />
+<xs: atribut name = 'customNavigationLayout' type = 'xs: string' />
+<xs: atribut name = 'displayOptions' type = 'xs: string' />
+<xs: atribut name = 'divider' type = 'xs: string' />
+<xs: atribut name = 'height' type = 'xs: string' />
+<xs: atribut name = 'homeLayout' type = 'xs: string' />
+<xs: atribut name = 'indeterminateProgressStyle' type = 'xs: string' />
+<xs: atribut name = 'itemPadding' type = 'xs: string' />
+<xs: atribut name = 'logo' type = 'xs: string' />
+<xs: atribut name = 'navigationMode' type = 'xs: string' />
+<xs: atribut name = 'progressBarPadding' type = 'xs: string' />
+<xs: atribut name = 'progressBarStyle' type = 'xs: string' />
+<xs: atribut name = 'subtitle' type = 'xs: string' />
+<xs: atribut name = 'subtitleTextStyle' type = 'xs: string' />
+<xs: atribut name = 'title' type = 'xs: string' />
+<xs: atribut name = 'titleTextStyle' type = 'xs: string' />
+<xs: atribut name = 'layout_gravity'>
+  <xs: simpleType> <xs: union memberTypes = 'xs: string'>
+    <xs: simpleType>
+      <xs: restriction base = 'xs: NMTOKEN'>
+        <xs: nilai enumerasi = 'bawah' />
+        <xs: nilai enumerasi = 'tengah' />
+        <xs: nilai enumerasi = 'center_horizontal' />
+        <xs: enumeration value = 'center_vertical' />
+        <xs: nilai enumerasi = 'clip_horizontal' />
+        <xs: enumeration value = 'clip_vertical' />
+        <xs: nilai enumerasi = 'isi' />
+        <xs: nilai enumerasi = 'fill_horizontal' />
+        <xs: nilai enumerasi = 'fill_vertical' />
+        <xs: nilai enumerasi = 'kiri' />
+        <xs: nilai enumerasi = 'benar' />
+        <xs: nilai enumerasi = 'atas' />
+      </ xs: pembatasan>
+    </ xs: simpleType>
+  </ xs: union> </ xs: simpleType>
+</ xs: atribut>
+<xs: atribut name = 'animateFirstView' type = 'xs: string' />
+<xs: atribut name = 'inAnimation' type = 'xs: string' />
+<xs: atribut name = 'loopViews' type = 'xs: string' />
+<xs: atribut name = 'outAnimation' type = 'xs: string' />
+<xs: atribut name = 'autoStart' type = 'xs: string' />
+<xs: atribut name = 'flipInterval' type = 'xs: string' />
+<xs: atribut name = 'bottomBright' type = 'xs: string' />
+<xs: atribut name = 'bottomDark' type = 'xs: string' />
+<xs: atribut name = 'bottomMedium' type = 'xs: string' />
+<xs: atribut name = 'centerBright' type = 'xs: string' />
+<xs: atribut name = 'centerDark' type = 'xs: string' />
+<xs: atribut name = 'centerMedium' type = 'xs: string' />
+<xs: atribut name = 'fullBright' type = 'xs: string' />
+<xs: atribut name = 'fullDark' type = 'xs: string' />
+<xs: atribut name = 'layout' type = 'xs: string' />
+<xs: atribut name = 'topBright' type = 'xs: string' />
+<xs: atribut name = 'topDark' type = 'xs: string' />
+<xs: atribut name = 'fromAlpha' type = 'xs: string' />
+<xs: atribut name = 'toAlpha' type = 'xs: string' />
+<xs: atribut name = 'dial' type = 'xs: string' />
+<xs: atribut name = 'hand_hour' type = 'xs: string' />
+<xs: atribut name = 'hand_minute' type = 'xs: string' />
+<xs: atribut name = 'installLocation' type = 'xs: string' />
+<xs: atribut name = 'sharedUserId' type = 'xs: string' />
+<xs: atribut name = 'sharedUserLabel' type = 'xs: string' />
+<xs: atribut name = 'versionCode' type = 'xs: string' />
+<xs: atribut name = 'versionName' type = 'xs: string' />
+<xs: atribut name = 'name' type = 'xs: string' />
+<xs: atribut name = 'allowTaskReparenting' type = 'xs: string' />
+<xs: atribut name = 'alwaysRetainTaskState' type = 'xs: string' />
+<xs: atribut name = 'clearTaskOnLaunch' type = 'xs: string' />
+<xs: atribut name = 'configChanges' type = 'xs: string' />
+<xs: atribut name = 'enabled' type = 'xs: string' />
+<xs: atribut name = 'excludeFromRecents' type = 'xs: string' />
+<xs: atribut name = 'diekspor' type = 'xs: string' />
+<xs: atribut name = 'finishOnCloseSystemDialogs' type = 'xs: string' />
+<xs: atribut name = 'finishOnTaskLaunch' type = 'xs: string' />
+<xs: atribut name = 'hardwareAccelerated' type = 'xs: string' />
+<xs: atribut name = 'immersive' type = 'xs: string' />
+<xs: atribut name = 'launchMode' type = 'xs: string' />
+<xs: atribut name = 'multiprocess' type = 'xs: string' />
+<xs: atribut name = 'noHistory' type = 'xs: string' />
+<xs: atribut name = 'permit' type = 'xs: string' />
+<xs: atribut name = 'process' type = 'xs: string' />
+<xs: atribut name = 'screenOrientation' type = 'xs: string' />
+<xs: atribut name = 'stateNotNeeded' type = 'xs: string' />
+<xs: atribut name = 'taskAffinity' type = 'xs: string' />
+<xs: atribut name = 'theme' type = 'xs: string' />
+<xs: atribut name = 'uiOptions' type = 'xs: string' />
+<xs: atribut name = 'windowSoftInputMode' type = 'xs: string' />
+<xs: atribut name = 'targetActivity' type = 'xs: string' />
+<xs: atribut name = 'allowBackup' type = 'xs: string' />
+<xs: atribut name = 'allowClearUserData' type = 'xs: string' />
+<xs: atribut name = 'backupAgent' type = 'xs: string' />
+<xs: atribut name = 'debuggable' type = 'xs: string' />
+<xs: atribut name = 'hasCode' type = 'xs: string' />
+<xs: atribut name = 'killAfterRestore' type = 'xs: string' />
+<xs: atribut name = 'largeHeap' type = 'xs: string' />
+<xs: atribut name = 'manageSpaceActivity' type = 'xs: string' />
+<xs: atribut name = 'persistent' type = 'xs: string' />
+<xs: atribut name = 'restoreAnyVersion' type = 'xs: string' />
+<xs: atribut name = 'restoreNeedsApplication' type = 'xs: string' />
+<xs: atribut name = 'testOnly' type = 'xs: string' />
+<xs: atribut name = 'vmSafeMode' type = 'xs: string' />
+<xs: atribut name = 'screenDensity' type = 'xs: string' />
+<xs: atribut name = 'screenSize' type = 'xs: string' />
+<xs: atribut name = 'host' type = 'xs: string' />
+<xs: atribut name = 'mimeType' type = 'xs: string' />
+<xs: atribut name = 'path' type = 'xs: string' />
+<xs: atribut name = 'pathPattern' type = 'xs: string' />
+<xs: atribut name = 'pathPrefix' type = 'xs: string' />
+<xs: atribut name = 'port' type = 'xs: string' />
+<xs: atribut name = 'scheme' type = 'xs: string' />
+<xs: atribut name = 'functionalTest' type = 'xs: string' />
+<xs: atribut name = 'handleProfiling' type = 'xs: string' />
+<xs: atribut name = 'targetPackage' type = 'xs: string' />
+<xs: atribut name = 'priority' type = 'xs: string' />
+<xs: atribut name = 'resource' type = 'xs: string' />
+<xs: atribut name = 'value' type = 'xs: string' />
+<xs: atribut name = 'publicKey' type = 'xs: string' />
+<xs: atribut name = 'readPermission' type = 'xs: string' />
+<xs: atribut name = 'writePermission' type = 'xs: string' />
+<xs: atribut name = 'permitGroup' type = 'xs: string' />
+<xs: atribut name = 'protectionLevel' type = 'xs: string' />
+<xs: atribut name = 'authority' type = 'xs: string' />
+<xs: atribut name = 'grantUriPermissions' type = 'xs: string' />
+<xs: atribut name = 'initOrder' type = 'xs: string' />
+<xs: atribut name = 'syncable' type = 'xs: string' />
+<xs: atribut name = 'stopWithTask' type = 'xs: string' />
+<xs: atribut name = 'anyDensity' type = 'xs: string' />
+<xs: atribut name = 'compatibleWidthLimitDp' type = 'xs: string' />
+<xs: atribut name = 'largeScreens' type = 'xs: string' />
+<xs: atribut name = 'terbesarWidthLimitDp' type = 'xs: string' />
+<xs: atribut name = 'normalScreens' type = 'xs: string' />
+<xs: atribut name = 'requireSmallestWidthDp' type = 'xs: string' />
+<xs: atribut name = 'resizeable' type = 'xs: string' />
+<xs: atribut name = 'smallScreens' type = 'xs: string' />
+<xs: atribut name = 'xlargeScreens' type = 'xs: string' />
+<xs: atribut name = 'reqFiveWayNav' type = 'xs: string' />
+<xs: atribut name = 'reqHardKeyboard' type = 'xs: string' />
+<xs: atribut name = 'reqKeyboardType' type = 'xs: string' />
+<xs: atribut name = 'reqNavigation' type = 'xs: string' />
+<xs: atribut name = 'reqTouchScreen' type = 'xs: string' />
+<xs: atribut name = 'glEsVersion' type = 'xs: string' />
+<xs: atribut name = 'required' type = 'xs: string' />
+<xs: atribut name = 'maxSdkVersion' type = 'xs: string' />
+<xs: atribut name = 'minSdkVersion' type = 'xs: string' />
+<xs: atribut name = 'targetSdkVersion' type = 'xs: string' />
+<xs: atribut name = 'drawable' type = 'xs: string' />
+<xs: atribut name = 'pivotX' type = 'xs: string' />
+<xs: atribut name = 'pivotY' type = 'xs: string' />
+<xs: atribut name = 'visible' type = 'xs: string' />
+<xs: atribut name = 'detachWallpaper' type = 'xs: string' />
+<xs: atribut name = 'durasi' type = 'xs: string' />
+<xs: atribut name = 'fillAfter' type = 'xs: string' />
+<xs: atribut name = 'fillBefore' type = 'xs: string' />
+<xs: atribut name = 'fillEnabled' type = 'xs: string' />
+<xs: atribut name = 'interpolator' type = 'xs: string' />
+<xs: atribut name = 'repeatCount' type = 'xs: string' />
+<xs: atribut name = 'repeatMode' type = 'xs: string' />
+<xs: atribut name = 'startOffset' type = 'xs: string' />
+<xs: atribut name = 'zAdjustment' type = 'xs: string' />
+<xs: atribut name = 'oneshot' type = 'xs: string' />
+<xs: atribut name = 'variablePadding' type = 'xs: string' />
+<xs: atribut name = 'shareInterpolator' type = 'xs: string' />
+<xs: atribut name = 'valueFrom' type = 'xs: string' />
+<xs: atribut name = 'valueTo' type = 'xs: string' />
+<xs: atribut name = 'valueType' type = 'xs: string' />
+<xs: atribut name = 'pemesanan' type = 'xs: string' />
+<xs: atribut name = 'tension' type = 'xs: string' />
+<xs: atribut name = 'extraTension' type = 'xs: string' />
+<xs: atribut name = 'autoAdvanceViewId' type = 'xs: string' />
+<xs: atribut name = 'configure' type = 'xs: string' />
+<xs: atribut name = 'initialLayout' type = 'xs: string' />
+<xs: atribut name = 'minHeight' type = 'xs: string' />
+<xs: atribut name = 'minResizeHeight' type = 'xs: string' />
+<xs: atribut name = 'minResizeWidth' type = 'xs: string' />
+<xs: atribut name = 'minWidth' type = 'xs: string' />
+<xs: atribut name = 'previewImage' type = 'xs: string' />
+<xs: atribut name = 'resizeMode' type = 'xs: string' />
+<xs: atribut name = 'updatePeriodMillis' type = 'xs: string' />
+<xs: atribut name = 'completionHint' type = 'xs: string' />
+<xs: atribut name = 'completionHintView' type = 'xs: string' />
+<xs: atribut name = 'completionThreshold' type = 'xs: string' />
+<xs: atribut name = 'dropDownAnchor' type = 'xs: string' />
+<xs: atribut name = 'dropDownHeight' type = 'xs: string' />
+<xs: atribut name = 'dropDownHorizontalOffset' type = 'xs: string' />
+<xs: atribut name = 'dropDownSelector' type = 'xs: string' />
+<xs: atribut name = 'dropDownVerticalOffset' type = 'xs: string' />
+<xs: atribut name = 'dropDownWidth' type = 'xs: string' />
+<xs: atribut name = 'inputType' type = 'xs: string' />
+<xs: atribut name = 'antialias' type = 'xs: string' />
+<xs: atribut name = 'dither' type = 'xs: string' />
+<xs: atribut name = 'filter' type = 'xs: string' />
+<xs: atribut name = 'gravity'>
+  <xs: simpleType> <xs: union memberTypes = 'xs: string'>
+    <xs: simpleType>
+      <xs: restriction base = 'xs: NMTOKEN'>
+        <xs: nilai enumerasi = 'bawah' />
+        <xs: nilai enumerasi = 'tengah' />
+        <xs: nilai enumerasi = 'center_horizontal' />
+        <xs: enumeration value = 'center_vertical' />
+        <xs: nilai enumerasi = 'clip_horizontal' />
+        <xs: enumeration value = 'clip_vertical' />
+        <xs: nilai enumerasi = 'isi' />
+        <xs: nilai enumerasi = 'fill_horizontal' />
+        <xs: nilai enumerasi = 'fill_vertical' />
+        <xs: nilai enumerasi = 'kiri' />
+        <xs: nilai enumerasi = 'benar' />
+        <xs: nilai enumerasi = 'atas' />
+      </ xs: pembatasan>
+    </ xs: simpleType>
+  </ xs: union> </ xs: simpleType>
+</ xs: atribut>
+<xs: atribut name = 'src' type = 'xs: string' />
+<xs: atribut name = 'tileMode' type = 'xs: string' />
+<xs: atribut name = 'dateTextAppearance' type = 'xs: string' />
+<xs: atribut name = 'firstDayOfWeek' type = 'xs: string' />
+<xs: atribut name = 'terfokusMonthDateColor' type = 'xs: string' />
+<xs: atribut name = 'maxDate' type = 'xs: string' />
+<xs: atribut name = 'minDate' type = 'xs: string' />
+<xs: atribut name = 'selectedDateVerticalBar' type = 'xs: string' />
+<xs: atribut name = 'selectedWeekBackgroundColor' type = 'xs: string' />
+<xs: atribut name = 'showWeekNumber' type = 'xs: string' />
+<xs: atribut name = 'ditampilkanWeekCount' type = 'xs: string' />
+<xs: atribut name = 'unfocusedMonthDateColor' type = 'xs: string' />
+<xs: atribut name = 'weekDayTextAppearance' type = 'xs: string' />
+<xs: atribut name = 'weekNumberColor' type = 'xs: string' />
+<xs: atribut name = 'weekSeparatorLineColor' type = 'xs: string' />
+<xs: atribut name = 'disableDependentsState' type = 'xs: string' />
+<xs: atribut name = 'summaryOff' type = 'xs: string' />
+<xs: atribut name = 'summaryOn' type = 'xs: string' />
+<xs: atribut name = 'checkMark' type = 'xs: string' />
+<xs: atribut name = 'checked' type = 'xs: string' />
+<xs: atribut name = 'format' type = 'xs: string' />
+<xs: atribut name = 'clipOrientation' type = 'xs: string' />
+<xs: atribut name = 'color' type = 'xs: string' />
+<xs: atribut name = 'button' type = 'xs: string' />
+<xs: atribut name = 'allContactsName' type = 'xs: string' />
+<xs: atribut name = 'detailColumn' type = 'xs: string' />
+<xs: atribut name = 'detailSocialSummary' type = 'xs: string' />
+<xs: atribut name = 'summaryColumn' type = 'xs: string' />
+<xs: atribut name = 'cycles' type = 'xs: string' />
+<xs: atribut name = 'dialogIcon' type = 'xs: string' />
+<xs: atribut name = 'dialogLayout' type = 'xs: string' />
+<xs: atribut name = 'dialogMessage' type = 'xs: string' />
+<xs: atribut name = 'dialogTitle' type = 'xs: string' />
+<xs: atribut name = 'negativeButtonText' type = 'xs: string' />
+<xs: atribut name = 'positiveButtonText' type = 'xs: string' />
+<xs: atribut name = 'bottomLeftRadius' type = 'xs: string' />
+<xs: atribut name = 'bottomRightRadius' type = 'xs: string' />
+<xs: atribut name = 'radius' type = 'xs: string' />
+<xs: atribut name = 'topLeftRadius' type = 'xs: string' />
+<xs: atribut name = 'topRightRadius' type = 'xs: string' />
+<xs: atribut name = 'state_accelerated' type = 'xs: string' />
+<xs: atribut name = 'state_activated' type = 'xs: string' />
+<xs: atribut name = 'state_active' type = 'xs: string' />
+<xs: atribut name = 'state_checkable' type = 'xs: string' />
+<xs: atribut name = 'state_checked' type = 'xs: string' />
+<xs: atribut name = 'state_drag_can_accept' type = 'xs: string' />
+<xs: atribut name = 'state_drag_hovered' type = 'xs: string' />
+<xs: atribut name = 'state_enabled' type = 'xs: string' />
+<xs: atribut name = 'state_first' type = 'xs: string' />
+<xs: atribut name = 'state_focused' type = 'xs: string' />
+<xs: atribut name = 'state_hovered' type = 'xs: string' />
+<xs: atribut name = 'state_last' type = 'xs: string' />
+<xs: atribut name = 'state_middle' type = 'xs: string' />
+<xs: atribut name = 'state_pressed' type = 'xs: string' />
+<xs: atribut name = 'state_selected' type = 'xs: string' />
+<xs: atribut name = 'state_single' type = 'xs: string' />
+<xs: atribut name = 'state_window_focused' type = 'xs: string' />
+<xs: atribut name = 'state_empty' type = 'xs: string' />
+<xs: atribut name = 'state_expanded' type = 'xs: string' />
+<xs: atribut name = 'childDivider' type = 'xs: string' />
+<xs: atribut name = 'childIndicator' type = 'xs: string' />
+<xs: atribut name = 'childIndicatorLeft' type = 'xs: string' />
+<xs: atribut name = 'childIndicatorRight' type = 'xs: string' />
+<xs: atribut name = 'groupIndicator' type = 'xs: string' />
+<xs: atribut name = 'indicatorLeft' type = 'xs: string' />
+<xs: atribut name = 'indicatorRight' type = 'xs: string' />
+<xs: atribut name = 'id' type = 'xs: string' />
+<xs: atribut name = 'tag' type = 'xs: string' />
+<xs: atribut name = 'fragmentCloseEnterAnimation' type = 'xs: string' />
+<xs: atribut name = 'fragmentCloseExitAnimation' type = 'xs: string' />
+<xs: atribut name = 'fragmentFadeEnterAnimation' type = 'xs: string' />
+<xs: atribut name = 'fragmentFadeExitAnimation' type = 'xs: string' />
+<xs: atribut name = 'fragmentOpenEnterAnimation' type = 'xs: string' />
+<xs: atribut name = 'fragmentOpenExitAnimation' type = 'xs: string' />
+<xs: atribut name = 'foreground' type = 'xs: string' />
+<xs: atribut name = 'foregroundGravity' type = 'xs: string' />
+<xs: atribut name = 'mengukurAllChildren' type = 'xs: string' />
+<xs: atribut name = 'animationDuration' type = 'xs: string' />
+<xs: atribut name = 'spacing' type = 'xs: string' />
+<xs: atribut name = 'unselectedAlpha' type = 'xs: string' />
+<xs: atribut name = 'eventsInterceptionEnabled' type = 'xs: string' />
+<xs: atribut name = 'fadeDuration' type = 'xs: string' />
+<xs: atribut name = 'fadeEnabled' type = 'xs: string' />
+<xs: atribut name = 'fadeOffset' type = 'xs: string' />
+<xs: atribut name = 'gestureColor' type = 'xs: string' />
+<xs: atribut name = 'gestureStrokeAngleThreshold' type = 'xs: string' />
+<xs: atribut name = 'gestureStrokeLengthThreshold' type = 'xs: string' />
+<xs: atribut name = 'gestureStrokeSquarityThreshold' type = 'xs: string' />
+<xs: atribut name = 'gestureStrokeType' type = 'xs: string' />
+<xs: atribut name = 'gestureStrokeWidth' type = 'xs: string' />
+<xs: atribut name = 'orientasi'>
+  
+    <xs: simpleType>
+      <xs: restriction base = 'xs: NMTOKEN'>
+        <xs: nilai enumerasi = 'horisontal' />
+        <xs: nilai enumerasi = 'vertikal' />
+      </ xs: pembatasan>
+    </ xs: simpleType>
+  
+</ xs: atribut>
+<xs: atribut name = 'unsainGestureColor' type = 'xs: string' />
+<xs: atribut name = 'innerRadius' type = 'xs: string' />
+<xs: atribut name = 'innerRadiusRatio' type = 'xs: string' />
+<xs: atribut name = 'shape' type = 'xs: string' />
+<xs: atribut name = 'thickness' type = 'xs: string' />
+<xs: atribut name = 'thicknessRatio' type = 'xs: string' />
+<xs: atribut name = 'useLevel' type = 'xs: string' />
+<xs: atribut name = 'angle' type = 'xs: string' />
+<xs: atribut name = 'centerColor' type = 'xs: string' />
+<xs: atribut name = 'centerX' type = 'xs: string' />
+<xs: atribut name = 'centerY' type = 'xs: string' />
+<xs: atribut name = 'endColor' type = 'xs: string' />
+<xs: atribut name = 'gradientRadius' type = 'xs: string' />
+<xs: atribut name = 'startColor' type = 'xs: string' />
+<xs: atribut name = 'type' type = 'xs: string' />
+<xs: atribut name = 'bottom' type = 'xs: string' />
+<xs: atribut name = 'left' type = 'xs: string' />
+<xs: atribut name = 'right' type = 'xs: string' />
+<xs: atribut name = 'top' type = 'xs: string' />
+<xs: atribut name = 'width' type = 'xs: string' />
+<xs: atribut name = 'dashGap' type = 'xs: string' />
+<xs: atribut name = 'dashWidth' type = 'xs: string' />
+<xs: atribut name = 'alignmentMode' type = 'xs: string' />
+<xs: atribut name = 'columnCount' type = 'xs: string' />
+<xs: atribut name = 'columnOrderPreserved' type = 'xs: string' />
+<xs: atribut name = 'rowCount' type = 'xs: string' />
+<xs: atribut name = 'rowOrderPreserved' type = 'xs: string' />
+<xs: atribut name = 'useDefaultMargins' type = 'xs: string' />
+<xs: atribut name = 'columnDelay' type = 'xs: string' />
+<xs: atribut name = 'direction' type = 'xs: string' />
+<xs: atribut name = 'directionPriority' type = 'xs: string' />
+<xs: atribut name = 'rowDelay' type = 'xs: string' />
+<xs: atribut name = 'layout_column' type = 'xs: string' />
+<xs: atribut name = 'layout_columnSpan' type = 'xs: string' />
+<xs: atribut name = 'layout_row' type = 'xs: string' />
+<xs: atribut name = 'layout_rowSpan' type = 'xs: string' />
+<xs: atribut name = 'columnWidth' type = 'xs: string' />
+<xs: atribut name = 'horizontalSpacing' type = 'xs: string' />
+<xs: atribut name = 'numColumns' type = 'xs: string' />
+<xs: atribut name = 'stretchMode' type = 'xs: string' />
+<xs: atribut name = 'verticalSpacing' type = 'xs: string' />
+<xs: atribut name = 'fillViewport' type = 'xs: string' />
+<xs: atribut name = 'maxItemsPerRow' type = 'xs: string' />
+<xs: atribut name = 'maxRows' type = 'xs: string' />
+<xs: atribut name = 'moreIcon' type = 'xs: string' />
+<xs: atribut name = 'rowHeight' type = 'xs: string' />
+<xs: atribut name = 'adjustViewBounds' type = 'xs: string' />
+<xs: atribut name = 'baseline' type = 'xs: string' />
+<xs: atribut name = 'baselineAlignBottom' type = 'xs: string' />
+<xs: atribut name = 'cropToPadding' type = 'xs: string' />
+<xs: atribut name = 'maxHeight' type = 'xs: string' />
+<xs: atribut name = 'maxWidth' type = 'xs: string' />
+<xs: atribut name = 'scaleType' type = 'xs: string' />
+<xs: atribut name = 'tint' type = 'xs: string' />
+<xs: atribut name = 'isDefault' type = 'xs: string' />
+<xs: atribut name = 'imeExtractEnterAnimation' type = 'xs: string' />
+<xs: atribut name = 'imeExtractExitAnimation' type = 'xs: string' />
+<xs: atribut name = 'imeFullscreenBackground' type = 'xs: string' />
+<xs: atribut name = 'imeSubtypeExtraValue' type = 'xs: string' />
+<xs: atribut name = 'imeSubtypeLocale' type = 'xs: string' />
+<xs: atribut name = 'imeSubtypeMode' type = 'xs: string' />
+<xs: atribut name = 'isAuxiliary' type = 'xs: string' />
+<xs: atribut name = 'overridesImplicitlyEnabledSubtype' type = 'xs: string' />
+<xs: atribut name = 'insetBottom' type = 'xs: string' />
+<xs: atribut name = 'insetLeft' type = 'xs: string' />
+<xs: atribut name = 'insetRight' type = 'xs: string' />
+<xs: atribut name = 'insetTop' type = 'xs: string' />
+<xs: atribut name = 'action' type = 'xs: string' />
+<xs: atribut name = 'data' type = 'xs: string' />
+<xs: atribut name = 'targetClass' type = 'xs: string' />
+<xs: atribut name = 'horizontalGap' type = 'xs: string' />
+<xs: atribut name = 'keyHeight' type = 'xs: string' />
+<xs: atribut name = 'keyWidth' type = 'xs: string' />
+<xs: atribut name = 'verticalGap' type = 'xs: string' />
+<xs: atribut name = 'keyBackground' type = 'xs: string' />
+<xs: atribut name = 'keyPreviewHeight' type = 'xs: string' />
+<xs: atribut name = 'keyPreviewLayout' type = 'xs: string' />
+<xs: atribut name = 'keyPreviewOffset' type = 'xs: string' />
+<xs: atribut name = 'keyTextColor' type = 'xs: string' />
+<xs: atribut name = 'keyTextSize' type = 'xs: string' />
+<xs: atribut name = 'labelTextSize' type = 'xs: string' />
+<xs: atribut name = 'popupLayout' type = 'xs: string' />
+<xs: atribut name = 'shadowColor' type = 'xs: string' />
+<xs: atribut name = 'shadowRadius' type = 'xs: string' />
+<xs: atribut name = 'verticalCorrection' type = 'xs: string' />
+<xs: atribut name = 'state_long_pressable' type = 'xs: string' />
+<xs: atribut name = 'codes' type = 'xs: string' />
+<xs: atribut name = 'iconPreview' type = 'xs: string' />
+<xs: atribut name = 'isModifier' type = 'xs: string' />
+<xs: atribut name = 'isRepeatable' type = 'xs: string' />
+<xs: atribut name = 'isSticky' type = 'xs: string' />
+<xs: atribut name = 'keyEdgeFlags' type = 'xs: string' />
+<xs: atribut name = 'keyIcon' type = 'xs: string' />
+<xs: atribut name = 'keyLabel' type = 'xs: string' />
+<xs: atribut name = 'keyOutputText' type = 'xs: string' />
+<xs: atribut name = 'keyboardMode' type = 'xs: string' />
+<xs: atribut name = 'popupCharacters' type = 'xs: string' />
+<xs: atribut name = 'popupKeyboard' type = 'xs: string' />
+<xs: atribut name = 'rowEdgeFlags' type = 'xs: string' />
+<xs: atribut name = 'opacity' type = 'xs: string' />
+<xs: atribut name = 'animation' type = 'xs: string' />
+<xs: atribut name = 'animationOrder' type = 'xs: string' />
+<xs: atribut name = 'delay' type = 'xs: string' />
+<xs: atribut name = 'maxLevel' type = 'xs: string' />
+<xs: atribut name = 'minLevel' type = 'xs: string' />
+<xs: atribut name = 'baselineAligned'>
+  <xs: simpleType> <xs: union memberTypes = 'xs: string'>
+    <xs: simpleType>
+      <xs: restriction base = 'xs: NMTOKEN'>
+        <xs: enumeration value = 'true' />
+        <xs: enumeration value = 'false' />
+      </ xs: pembatasan>
+    </ xs: simpleType>
+  </ xs: union> </ xs: simpleType>
+</ xs: atribut>
+<xs: atribut name = 'baselineAlignedChildIndex' type = 'xs: string' />
+<xs: atribut name = 'dividerPadding' type = 'xs: string' />
+<xs: atribut name = 'mengukurWithLargestChild' type = 'xs: string' />
+<xs: atribut name = 'showDividers' type = 'xs: string' />
+<xs: atribut name = 'weightSum' type = 'xs: string' />
+<xs: atribut name = 'layout_height' type = 'xs: string' />
+<xs: atribut name = 'layout_weight' type = 'xs: string' />
+<xs: atribut name = 'layout_width' type = 'xs: string' />
+<xs: atribut name = 'entryValues' type = 'xs: string' />
+<xs: atribut name = 'dividerHeight' type = 'xs: string' />
+<xs: atribut name = 'footerDividersEnabled' type = 'xs: string' />
+<xs: atribut name = 'headerDividersEnabled' type = 'xs: string' />
+<xs: atribut name = 'overScrollFooter' type = 'xs: string' />
+<xs: atribut name = 'overScrollHeader' type = 'xs: string' />
+<xs: atribut name = 'apiKey' type = 'xs: string' />
+<xs: atribut name = 'checkableBehavior' type = 'xs: string' />
+<xs: atribut name = 'menuCategory' type = 'xs: string' />
+<xs: atribut name = 'orderInCategory' type = 'xs: string' />
+<xs: atribut name = 'actionLayout' type = 'xs: string' />
+<xs: atribut name = 'actionProviderClass' type = 'xs: string' />
+<xs: atribut name = 'actionViewClass' type = 'xs: string' />
+<xs: atribut name = 'alphabeticShortcut' type = 'xs: string' />
+<xs: atribut name = 'checkable' type = 'xs: string' />
+<xs: atribut name = 'numericShortcut' type = 'xs: string' />
+<xs: atribut name = 'onClick' type = 'xs: string' />
+<xs: atribut name = 'showAsAction' type = 'xs: string' />
+<xs: atribut name = 'titleCondensed' type = 'xs: string' />
+<xs: atribut name = 'headerBackground' type = 'xs: string' />
+<xs: atribut name = 'horizontalDivider' type = 'xs: string' />
+<xs: atribut name = 'itemBackground' type = 'xs: string' />
+<xs: atribut name = 'itemIconDisabledAlpha' type = 'xs: string' />
+<xs: atribut name = 'itemTextAppearance' type = 'xs: string' />
+<xs: atribut name = 'verticalDivider' type = 'xs: string' />
+<xs: atribut name = 'windowAnimationStyle' type = 'xs: string' />
+<xs: atribut name = 'directionDescription' type = 'xs: string' />
+<xs: atribut name = 'targetDescription' type = 'xs: string' />
+<xs: atribut name = 'popupAnimationStyle' type = 'xs: string' />
+<xs: atribut name = 'popupBackground' type = 'xs: string' />
+<xs: atribut name = 'state_above_anchor' type = 'xs: string' />
+<xs: atribut name = 'defaultValue' type = 'xs: string' />
+<xs: atribut name = 'dependency' type = 'xs: string' />
+<xs: atribut name = 'fragment' type = 'xs: string' />
+<xs: atribut name = 'key' type = 'xs: string' />
+<xs: atribut name = 'order' type = 'xs: string' />
+<xs: atribut name = 'selectable' type = 'xs: string' />
+<xs: atribut name = 'shouldDisableView' type = 'xs: string' />
+<xs: atribut name = 'ringkasan' type = 'xs: string' />
+<xs: atribut name = 'widgetLayout' type = 'xs: string' />
+<xs: atribut name = 'bookingFromXml' type = 'xs: string' />
+<xs: atribut name = 'breadCrumbShortTitle' type = 'xs: string' />
+<xs: atribut name = 'breadCrumbTitle' type = 'xs: string' />
+<xs: atribut name = 'animationResolution' type = 'xs: string' />
+<xs: atribut name = 'indeterminate' type = 'xs: string' />
+<xs: atribut name = 'indeterminateBehavior' type = 'xs: string' />
+<xs: atribut name = 'indeterminateDrawable' type = 'xs: string' />
+<xs: atribut name = 'indeterminateDuration' type = 'xs: string' />
+<xs: atribut name = 'indeterminateOnly' type = 'xs: string' />
+<xs: atribut name = 'max' type = 'xs: string' />
+<xs: atribut name = 'progress' type = 'xs: string' />
+<xs: atribut name = 'progressDrawable' type = 'xs: string' />
+<xs: atribut name = 'secondaryProgress' type = 'xs: string' />
+<xs: atribut name = 'propertyName' type = 'xs: string' />
+<xs: atribut name = 'checkedButton' type = 'xs: string' />
+<xs: atribut name = 'isIndicator' type = 'xs: string' />
+<xs: atribut name = 'numStars' type = 'xs: string' />
+<xs: atribut name = 'rating' type = 'xs: string' />
+<xs: atribut name = 'stepSize' type = 'xs: string' />
+<xs: atribut name = 'abaikanGravity' type = 'xs: string' />
+<xs: atribut name = 'layout_above' type = 'xs: string' />
+<xs: atribut name = 'layout_alignBaseline' type = 'xs: string' />
+<xs: atribut name = 'layout_alignBottom' type = 'xs: string' />
+<xs: atribut name = 'layout_alignLeft' type = 'xs: string' />
+<xs: atribut name = 'layout_alignParentBottom' type = 'xs: string' />
+<xs: atribut name = 'layout_alignParentLeft' type = 'xs: string' />
+<xs: atribut name = 'layout_alignParentRight' type = 'xs: string' />
+<xs: atribut name = 'layout_alignParentTop' type = 'xs: string' />
+<xs: atribut name = 'layout_alignRight' type = 'xs: string' />
+<xs: atribut name = 'layout_alignTop' type = 'xs: string' />
+<xs: atribut name = 'layout_alignWithParentIfMissing' type = 'xs: string' />
+<xs: atribut name = 'layout_below' type = 'xs: string' />
+<xs: atribut name = 'layout_centerHorizontal' type = 'xs: string' />
+<xs: atribut name = 'layout_centerInParent' type = 'xs: string' />
+<xs: atribut name = 'layout_centerVertical' type = 'xs: string' />
+<xs: atribut name = 'layout_toLeftOf' type = 'xs: string' />
+<xs: atribut name = 'layout_toRightOf' type = 'xs: string' />
+<xs: atribut name = 'ringtoneType' type = 'xs: string' />
+<xs: atribut name = 'showDefault' type = 'xs: string' />
+<xs: atribut name = 'showSilent' type = 'xs: string' />
+<xs: atribut name = 'fromDegrees' type = 'xs: string' />
+<xs: atribut name = 'toDegrees' type = 'xs: string' />
+<xs: atribut name = 'fromXScale' type = 'xs: string' />
+<xs: atribut name = 'fromYScale' type = 'xs: string' />
+<xs: atribut name = 'toXScale' type = 'xs: string' />
+<xs: atribut name = 'toYScale' type = 'xs: string' />
+<xs: atribut name = 'scaleGravity' type = 'xs: string' />
+<xs: atribut name = 'scaleHeight' type = 'xs: string' />
+<xs: atribut name = 'scaleWidth' type = 'xs: string' />
+<xs: atribut name = 'useIntrinsicSizeAsMinimum' type = 'xs: string' />
+<xs: atribut name = 'iconifiedByDefault' type = 'xs: string' />
+<xs: atribut name = 'imeOptions' type = 'xs: string' />
+<xs: atribut name = 'queryHint' type = 'xs: string' />
+<xs: atribut name = 'autoUrlDetect' type = 'xs: string' />
+<xs: atribut name = 'hint' type = 'xs: string' />
+<xs: atribut name = 'includeInGlobalSearch' type = 'xs: string' />
+<xs: atribut name = 'queryAfterZeroResults' type = 'xs: string' />
+<xs: atribut name = 'searchButtonText' type = 'xs: string' />
+<xs: atribut name = 'searchMode' type = 'xs: string' />
+<xs: atribut name = 'searchSettingsDescription' type = 'xs: string' />
+<xs: atribut name = 'searchSuggestAuthority' type = 'xs: string' />
+<xs: atribut name = 'searchSuggestIntentAction' type = 'xs: string' />
+<xs: atribut name = 'searchSuggestIntentData' type = 'xs: string' />
+<xs: atribut name = 'searchSuggestPath' type = 'xs: string' />
+<xs: atribut name = 'searchSuggestSelection' type = 'xs: string' />
+<xs: atribut name = 'searchSuggestThreshold' type = 'xs: string' />
+<xs: atribut name = 'voiceLanguage' type = 'xs: string' />
+<xs: atribut name = 'voiceLanguageModel' type = 'xs: string' />
+<xs: atribut name = 'voiceMaxResults' type = 'xs: string' />
+<xs: atribut name = 'voicePromptText' type = 'xs: string' />
+<xs: atribut name = 'voiceSearchMode' type = 'xs: string' />
+<xs: atribut name = 'kode kunci' type = 'xs: string' />
+<xs: atribut name = 'queryActionMsg' type = 'xs: string' />
+<xs: atribut name = 'suggestActionMsg' type = 'xs: string' />
+<xs: atribut name = 'suggestActionMsgColumn' type = 'xs: string' />
+<xs: atribut name = 'thumb' type = 'xs: string' />
+<xs: atribut name = 'thumbOffset' type = 'xs: string' />
+<xs: atribut name = 'actionModeCopyDrawable' type = 'xs: string' />
+<xs: atribut name = 'actionModeCutDrawable' type = 'xs: string' />
+<xs: atribut name = 'actionModePasteDrawable' type = 'xs: string' />
+<xs: atribut name = 'actionModeSelectAllDrawable' type = 'xs: string' />
+<xs: atribut name = 'allowSingleTap' type = 'xs: string' />
+<xs: atribut name = 'animateOnClick' type = 'xs: string' />
+<xs: atribut name = 'bottomOffset' type = 'xs: string' />
+<xs: atribut name = 'content' type = 'xs: string' />
+<xs: atribut name = 'handle' type = 'xs: string' />
+<xs: atribut name = 'topOffset' type = 'xs: string' />
+<xs: atribut name = 'subtypeExtraValue' type = 'xs: string' />
+<xs: atribut name = 'subtypeLocale' type = 'xs: string' />
+<xs: atribut name = 'prompt' type = 'xs: string' />
+<xs: atribut name = 'spinnerMode' type = 'xs: string' />
+<xs: atribut name = 'constantSize' type = 'xs: string' />
+<xs: atribut name = 'enterFadeDuration' type = 'xs: string' />
+<xs: atribut name = 'exitFadeDuration' type = 'xs: string' />
+<xs: atribut name = 'switchMinWidth' type = 'xs: string' />
+<xs: atribut name = 'switchPadding' type = 'xs: string' />
+<xs: atribut name = 'switchTextAppearance' type = 'xs: string' />
+<xs: atribut name = 'textOff' type = 'xs: string' />
+<xs: atribut name = 'textOn' type = 'xs: string' />
+<xs: atribut name = 'thumbTextPadding' type = 'xs: string' />
+<xs: atribut name = 'track' type = 'xs: string' />
+<xs: atribut name = 'switchTextOff' type = 'xs: string' />
+<xs: atribut name = 'switchTextOn' type = 'xs: string' />
+<xs: atribut name = 'allowParallelSyncs' type = 'xs: string' />
+<xs: atribut name = 'contentAuthority' type = 'xs: string' />
+<xs: atribut name = 'isAlwaysSyncable' type = 'xs: string' />
+<xs: atribut name = 'supportUploading' type = 'xs: string' />
+<xs: atribut name = 'userVisible' type = 'xs: string' />
+<xs: atribut name = 'tabStripEnabled' type = 'xs: string' />
+<xs: atribut name = 'tabStripLeft' type = 'xs: string' />
+<xs: atribut name = 'tabStripRight' type = 'xs: string' />
+<xs: atribut name = 'collapseColumns' type = 'xs: string' />
+<xs: atribut name = 'shrinkColumns' type = 'xs: string' />
+<xs: atribut name = 'stretchColumns' type = 'xs: string' />
+<xs: atribut name = 'layout_span' type = 'xs: string' />
+<xs: atribut name = 'textAllCaps' type = 'xs: string' />
+<xs: atribut name = 'textColor' type = 'xs: string' />
+<xs: atribut name = 'textColorHighlight' type = 'xs: string' />
+<xs: atribut name = 'textColorHint' type = 'xs: string' />
+<xs: atribut name = 'textColorLink' type = 'xs: string' />
+<xs: atribut name = 'textSize' type = 'xs: string' />
+<xs: atribut name = 'textStyle' type = 'xs: string' />
+<xs:attribute name='typeface' type='xs:string' />
+<xs:attribute name='autoLink' type='xs:string' />
+<xs:attribute name='autoText' type='xs:string' />
+<xs:attribute name='bufferType' type='xs:string' />
+<xs:attribute name='capitalize' type='xs:string' />
+<xs:attribute name='cursorVisible' type='xs:string' />
+<xs:attribute name='digits' type='xs:string' />
+<xs:attribute name='drawableBottom' type='xs:string' />
+<xs:attribute name='drawableEnd' type='xs:string' />
+<xs:attribute name='drawableLeft' type='xs:string' />
+<xs:attribute name='drawablePadding' type='xs:string' />
+<xs:attribute name='drawableRight' type='xs:string' />
+<xs:attribute name='drawableStart' type='xs:string' />
+<xs:attribute name='drawableTop' type='xs:string' />
+<xs:attribute name='editable' type='xs:string' />
+<xs:attribute name='editorExtras' type='xs:string' />
+<xs:attribute name='ellipsize' type='xs:string' />
+<xs:attribute name='ems' type='xs:string' />
+<xs:attribute name='freezesText' type='xs:string' />
+<xs:attribute name='imeActionId' type='xs:string' />
+<xs:attribute name='imeActionLabel' type='xs:string' />
+<xs:attribute name='includeFontPadding' type='xs:string' />
+<xs:attribute name='inputMethod' type='xs:string' />
+<xs:attribute name='lineSpacingExtra' type='xs:string' />
+<xs:attribute name='lineSpacingMultiplier' type='xs:string' />
+<xs:attribute name='lines' type='xs:string' />
+<xs:attribute name='linksClickable' type='xs:string' />
+<xs:attribute name='marqueeRepeatLimit' type='xs:string' />
+<xs:attribute name='maxEms' type='xs:string' />
+<xs:attribute name='maxLength' type='xs:string' />
+<xs:attribute name='maxLines' type='xs:string' />
+<xs:attribute name='minEms' type='xs:string' />
+<xs:attribute name='minLines' type='xs:string' />
+<xs:attribute name='numeric' type='xs:string' />
+<xs:attribute name='password' type='xs:string' />
+<xs:attribute name='phoneNumber' type='xs:string' />
+<xs:attribute name='privateImeOptions' type='xs:string' />
+<xs:attribute name='scrollHorizontally' type='xs:string' />
+<xs:attribute name='selectAllOnFocus' type='xs:string' />
+<xs:attribute name='shadowDx' type='xs:string' />
+<xs:attribute name='shadowDy' type='xs:string' />
+<xs:attribute name='singleLine' type='xs:string' />
+<xs:attribute name='text' type='xs:string' />
+<xs:attribute name='textAppearance' type='xs:string' />
+<xs:attribute name='textCursorDrawable' type='xs:string' />
+<xs:attribute name='textEditNoPasteWindowLayout' type='xs:string' />
+<xs:attribute name='textEditPasteWindowLayout' type='xs:string' />
+<xs:attribute name='textEditSideNoPasteWindowLayout' type='xs:string' />
+<xs:attribute name='textEditSidePasteWindowLayout' type='xs:string' />
+<xs:attribute name='textEditSuggestionItemLayout' type='xs:string' />
+<xs:attribute name='textIsSelectable' type='xs:string' />
+<xs:attribute name='textScaleX' type='xs:string' />
+<xs:attribute name='textSelectHandle' type='xs:string' />
+<xs:attribute name='textSelectHandleLeft' type='xs:string' />
+<xs:attribute name='textSelectHandleRight' type='xs:string' />
+<xs:attribute name='state_multiline' type='xs:string' />
+<xs:attribute name='absListViewStyle' type='xs:string' />
+<xs:attribute name='actionBarDivider' type='xs:string' />
+<xs:attribute name='actionBarItemBackground' type='xs:string' />
+<xs:attribute name='actionBarSize' type='xs:string' />
+<xs:attribute name='actionBarSplitStyle' type='xs:string' />
+<xs:attribute name='actionBarStyle' type='xs:string' />
+<xs:attribute name='actionBarTabBarStyle' type='xs:string' />
+<xs:attribute name='actionBarTabStyle' type='xs:string' />
+<xs:attribute name='actionBarTabTextStyle' type='xs:string' />
+<xs:attribute name='actionBarWidgetTheme' type='xs:string' />
+<xs:attribute name='actionButtonStyle' type='xs:string' />
+<xs:attribute name='actionDropDownStyle' type='xs:string' />
+<xs:attribute name='actionMenuTextAppearance' type='xs:string' />
+<xs:attribute name='actionMenuTextColor' type='xs:string' />
+<xs:attribute name='actionModeBackground' type='xs:string' />
+<xs:attribute name='actionModeCloseButtonStyle' type='xs:string' />
+<xs:attribute name='actionModeCloseDrawable' type='xs:string' />
+<xs:attribute name='actionModeSplitBackground' type='xs:string' />
+<xs:attribute name='actionModeStyle' type='xs:string' />
+<xs:attribute name='actionOverflowButtonStyle' type='xs:string' />
+<xs:attribute name='activatedBackgroundIndicator' type='xs:string' />
+<xs:attribute name='alertDialogIcon' type='xs:string' />
+<xs:attribute name='alertDialogStyle' type='xs:string' />
+<xs:attribute name='alertDialogTheme' type='xs:string' />
+<xs:attribute name='autoCompleteTextViewStyle' type='xs:string' />
+<xs:attribute name='backgroundDimAmount' type='xs:string' />
+<xs:attribute name='backgroundDimEnabled' type='xs:string' />
+<xs:attribute name='borderlessButtonStyle' type='xs:string' />
+<xs:attribute name='buttonBarButtonStyle' type='xs:string' />
+<xs:attribute name='buttonBarStyle' type='xs:string' />
+<xs:attribute name='buttonStyle' type='xs:string' />
+<xs:attribute name='buttonStyleInset' type='xs:string' />
+<xs:attribute name='buttonStyleSmall' type='xs:string' />
+<xs:attribute name='buttonStyleToggle' type='xs:string' />
+<xs:attribute name='calendarViewStyle' type='xs:string' />
+<xs:attribute name='candidatesTextStyleSpans' type='xs:string' />
+<xs:attribute name='checkBoxPreferenceStyle' type='xs:string' />
+<xs:attribute name='checkboxStyle' type='xs:string' />
+<xs:attribute name='colorActivatedHighlight' type='xs:string' />
+<xs:attribute name='colorBackground' type='xs:string' />
+<xs:attribute name='colorBackgroundCacheHint' type='xs:string' />
+<xs:attribute name='colorFocusedHighlight' type='xs:string' />
+<xs:attribute name='colorForeground' type='xs:string' />
+<xs:attribute name='colorForegroundInverse' type='xs:string' />
+<xs:attribute name='colorLongPressedHighlight' type='xs:string' />
+<xs:attribute name='colorMultiSelectHighlight' type='xs:string' />
+<xs:attribute name='colorPressedHighlight' type='xs:string' />
+<xs:attribute name='datePickerStyle' type='xs:string' />
+<xs:attribute name='detailsElementBackground' type='xs:string' />
+<xs:attribute name='dialogPreferenceStyle' type='xs:string' />
+<xs:attribute name='dialogTheme' type='xs:string' />
+<xs:attribute name='disabledAlpha' type='xs:string' />
+<xs:attribute name='dividerHorizontal' type='xs:string' />
+<xs:attribute name='dividerVertical' type='xs:string' />
+<xs:attribute name='dropDownHintAppearance' type='xs:string' />
+<xs:attribute name='dropDownItemStyle' type='xs:string' />
+<xs:attribute name='dropDownListViewStyle' type='xs:string' />
+<xs:attribute name='dropDownSpinnerStyle' type='xs:string' />
+<xs:attribute name='editTextBackground' type='xs:string' />
+<xs:attribute name='editTextColor' type='xs:string' />
+<xs:attribute name='editTextPreferenceStyle' type='xs:string' />
+<xs:attribute name='editTextStyle' type='xs:string' />
+<xs:attribute name='expandableListPreferredChildIndicatorLeft' type='xs:string' />
+<xs:attribute name='expandableListPreferredChildIndicatorRight' type='xs:string' />
+<xs:attribute name='expandableListPreferredChildPaddingLeft' type='xs:string' />
+<xs:attribute name='expandableListPreferredItemIndicatorLeft' type='xs:string' />
+<xs:attribute name='expandableListPreferredItemIndicatorRight' type='xs:string' />
+<xs:attribute name='expandableListPreferredItemPaddingLeft' type='xs:string' />
+<xs:attribute name='expandableListViewStyle' type='xs:string' />
+<xs:attribute name='expandableListViewWhiteStyle' type='xs:string' />
+<xs:attribute name='fastScrollOverlayPosition' type='xs:string' />
+<xs:attribute name='fastScrollPreviewBackgroundLeft' type='xs:string' />
+<xs:attribute name='fastScrollPreviewBackgroundRight' type='xs:string' />
+<xs:attribute name='fastScrollTextColor' type='xs:string' />
+<xs:attribute name='fastScrollThumbDrawable' type='xs:string' />
+<xs:attribute name='fastScrollTrackDrawable' type='xs:string' />
+<xs:attribute name='galleryItemBackground' type='xs:string' />
+<xs:attribute name='galleryStyle' type='xs:string' />
+<xs:attribute name='gridViewStyle' type='xs:string' />
+<xs:attribute name='homeAsUpIndicator' type='xs:string' />
+<xs:attribute name='horizontalScrollViewStyle' type='xs:string' />
+<xs:attribute name='imageButtonStyle' type='xs:string' />
+<xs:attribute name='imageWellStyle' type='xs:string' />
+<xs:attribute name='listChoiceBackgroundIndicator' type='xs:string' />
+<xs:attribute name='listChoiceIndicatorMultiple' type='xs:string' />
+<xs:attribute name='listChoiceIndicatorSingle' type='xs:string' />
+<xs:attribute name='listDivider' type='xs:string' />
+<xs:attribute name='listDividerAlertDialog' type='xs:string' />
+<xs:attribute name='listPopupWindowStyle' type='xs:string' />
+<xs:attribute name='listPreferredItemHeight' type='xs:string' />
+<xs:attribute name='listPreferredItemHeightLarge' type='xs:string' />
+<xs:attribute name='listPreferredItemHeightSmall' type='xs:string' />
+<xs:attribute name='listPreferredItemPaddingLeft' type='xs:string' />
+<xs:attribute name='listPreferredItemPaddingRight' type='xs:string' />
+<xs:attribute name='listSeparatorTextViewStyle' type='xs:string' />
+<xs:attribute name='listViewStyle' type='xs:string' />
+<xs:attribute name='listViewWhiteStyle' type='xs:string' />
+<xs:attribute name='mapViewStyle' type='xs:string' />
+<xs:attribute name='panelBackground' type='xs:string' />
+<xs:attribute name='panelColorBackground' type='xs:string' />
+<xs:attribute name='panelColorForeground' type='xs:string' />
+<xs:attribute name='panelFullBackground' type='xs:string' />
+<xs:attribute name='panelTextAppearance' type='xs:string' />
+<xs:attribute name='popupMenuStyle' type='xs:string' />
+<xs:attribute name='popupWindowStyle' type='xs:string' />
+<xs:attribute name='preferenceCategoryStyle' type='xs:string' />
+<xs:attribute name='preferenceInformationStyle' type='xs:string' />
+<xs:attribute name='preferenceLayoutChild' type='xs:string' />
+<xs:attribute name='preferenceScreenStyle' type='xs:string' />
+<xs:attribute name='preferenceStyle' type='xs:string' />
+<xs:attribute name='progressBarStyleHorizontal' type='xs:string' />
+<xs:attribute name='progressBarStyleInverse' type='xs:string' />
+<xs:attribute name='progressBarStyleLarge' type='xs:string' />
+<xs:attribute name='progressBarStyleLargeInverse' type='xs:string' />
+<xs:attribute name='progressBarStyleSmall' type='xs:string' />
+<xs:attribute name='progressBarStyleSmallInverse' type='xs:string' />
+<xs:attribute name='progressBarStyleSmallTitle' type='xs:string' />
+<xs:attribute name='quickContactBadgeStyleSmallWindowLarge' type='xs:string' />
+<xs:attribute name='quickContactBadgeStyleSmallWindowMedium' type='xs:string' />
+<xs:attribute name='quickContactBadgeStyleSmallWindowSmall' type='xs:string' />
+<xs:attribute name='quickContactBadgeStyleWindowLarge' type='xs:string' />
+<xs:attribute name='quickContactBadgeStyleWindowMedium' type='xs:string' />
+<xs:attribute name='quickContactBadgeStyleWindowSmall' type='xs:string' />
+<xs:attribute name='radioButtonStyle' type='xs:string' />
+<xs:attribute name='ratingBarStyle' type='xs:string' />
+<xs:attribute name='ratingBarStyleIndicator' type='xs:string' />
+<xs:attribute name='ratingBarStyleSmall' type='xs:string' />
+<xs:attribute name='ringtonePreferenceStyle' type='xs:string' />
+<xs:attribute name='scrollViewStyle' type='xs:string' />
+<xs:attribute name='seekBarStyle' type='xs:string' />
+<xs:attribute name='segmentedButtonStyle' type='xs:string' />
+<xs:attribute name='selectableItemBackground' type='xs:string' />
+<xs:attribute name='spinnerDropDownItemStyle' type='xs:string' />
+<xs:attribute name='spinnerItemStyle' type='xs:string' />
+<xs:attribute name='spinnerStyle' type='xs:string' />
+<xs:attribute name='starStyle' type='xs:string' />
+<xs:attribute name='switchPreferenceStyle' type='xs:string' />
+<xs:attribute name='tabWidgetStyle' type='xs:string' />
+<xs:attribute name='textAppearanceButton' type='xs:string' />
+<xs:attribute name='textAppearanceInverse' type='xs:string' />
+<xs:attribute name='textAppearanceLarge' type='xs:string' />
+<xs:attribute name='textAppearanceLargeInverse' type='xs:string' />
+<xs:attribute name='textAppearanceLargePopupMenu' type='xs:string' />
+<xs:attribute name='textAppearanceListItem' type='xs:string' />
+<xs:attribute name='textAppearanceListItemSmall' type='xs:string' />
+<xs:attribute name='textAppearanceMedium' type='xs:string' />
+<xs:attribute name='textAppearanceMediumInverse' type='xs:string' />
+<xs:attribute name='textAppearanceSearchResultSubtitle' type='xs:string' />
+<xs:attribute name='textAppearanceSearchResultTitle' type='xs:string' />
+<xs:attribute name='textAppearanceSmall' type='xs:string' />
+<xs:attribute name='textAppearanceSmallInverse' type='xs:string' />
+<xs:attribute name='textAppearanceSmallPopupMenu' type='xs:string' />
+<xs:attribute name='textCheckMark' type='xs:string' />
+<xs:attribute name='textCheckMarkInverse' type='xs:string' />
+<xs:attribute name='textColorAlertDialogListItem' type='xs:string' />
+<xs:attribute name='textColorHighlightInverse' type='xs:string' />
+<xs:attribute name='textColorHintInverse' type='xs:string' />
+<xs:attribute name='textColorLinkInverse' type='xs:string' />
+<xs:attribute name='textColorPrimary' type='xs:string' />
+<xs:attribute name='textColorPrimaryDisableOnly' type='xs:string' />
+<xs:attribute name='textColorPrimaryInverse' type='xs:string' />
+<xs:attribute name='textColorPrimaryInverseDisableOnly' type='xs:string' />
+<xs:attribute name='textColorPrimaryInverseNoDisable' type='xs:string' />
+<xs:attribute name='textColorPrimaryNoDisable' type='xs:string' />
+<xs:attribute name='textColorSecondary' type='xs:string' />
+<xs:attribute name='textColorSecondaryInverse' type='xs:string' />
+<xs:attribute name='textColorSecondaryInverseNoDisable' type='xs:string' />
+<xs:attribute name='textColorSecondaryNoDisable' type='xs:string' />
+<xs:attribute name='textColorTertiary' type='xs:string' />
+<xs:attribute name='textColorTertiaryInverse' type='xs:string' />
+<xs:attribute name='textSelectHandleWindowStyle' type='xs:string' />
+<xs:attribute name='textSuggestionsWindowStyle' type='xs:string' />
+<xs:attribute name='textViewStyle' type='xs:string' />
+<xs:attribute name='webTextViewStyle' type='xs:string' />
+<xs:attribute name='webViewStyle' type='xs:string' />
+<xs:attribute name='windowActionBar' type='xs:string' />
+<xs:attribute name='windowActionBarOverlay' type='xs:string' />
+<xs:attribute name='windowActionModeOverlay' type='xs:string' />
+<xs:attribute name='windowBackground' type='xs:string' />
+<xs:attribute name='windowCloseOnTouchOutside' type='xs:string' />
+<xs:attribute name='windowContentOverlay' type='xs:string' />
+<xs:attribute name='windowDisablePreview' type='xs:string' />
+<xs:attribute name='windowEnableSplitTouch' type='xs:string' />
+<xs:attribute name='windowFrame' type='xs:string' />
+<xs:attribute name='windowFullscreen' type='xs:string' />
+<xs:attribute name='windowIsFloating' type='xs:string' />
+<xs:attribute name='windowIsTranslucent' type='xs:string' />
+<xs:attribute name='windowNoDisplay' type='xs:string' />
+<xs:attribute name='windowNoTitle' type='xs:string' />
+<xs:attribute name='windowShowWallpaper' type='xs:string' />
+<xs:attribute name='windowTitleBackgroundStyle' type='xs:string' />
+<xs:attribute name='windowTitleSize' type='xs:string' />
+<xs:attribute name='windowTitleStyle' type='xs:string' />
+<xs:attribute name='yesNoPreferenceStyle' type='xs:string' />
+<xs:attribute name='fromXDelta' type='xs:string' />
+<xs:attribute name='fromYDelta' type='xs:string' />
+<xs:attribute name='toXDelta' type='xs:string' />
+<xs:attribute name='toYDelta' type='xs:string' />
+<xs:attribute name='mode' type='xs:string' />
+<xs:attribute name='layout_scale' type='xs:string' />
+<xs:attribute name='alpha' type='xs:string' />
+<xs:attribute name='clickable'>
+  <xs:simpleType><xs:union memberTypes='xs:string'>
+    <xs:simpleType>
+      <xs:restriction base='xs:NMTOKEN'>
+        <xs:enumeration value='true' />
+        <xs:enumeration value='false' />
+      </xs:restriction>
+    </xs:simpleType>
+  </xs:union></xs:simpleType>
+</xs:attribute>
+<xs:attribute name='contentDescription' type='xs:string' />
+<xs:attribute name='drawingCacheQuality'>
+  
+    <xs:simpleType>
+      <xs:restriction base='xs:NMTOKEN'>
+        <xs:enumeration value='auto' />
+        <xs:enumeration value='high' />
+        <xs:enumeration value='low' />
+      </xs:restriction>
+    </xs:simpleType>
+  
+</xs:attribute>
+<xs:attribute name='duplicateParentState'>
+  <xs:simpleType><xs:union memberTypes='xs:string'>
+    <xs:simpleType>
+      <xs:restriction base='xs:NMTOKEN'>
+        <xs:enumeration value='true' />
+        <xs:enumeration value='false' />
+      </xs:restriction>
+    </xs:simpleType>
+  </xs:union></xs:simpleType>
+</xs:attribute>
+<xs:attribute name='fadeScrollbars'>
+  <xs:simpleType><xs:union memberTypes='xs:string'>
+    <xs:simpleType>
+      <xs:restriction base='xs:NMTOKEN'>
+        <xs:enumeration value='true' />
+        <xs:enumeration value='false' />
+      </xs:restriction>
+    </xs:simpleType>
+  </xs:union></xs:simpleType>
+</xs:attribute>
+<xs:attribute name='fadingEdge'>
+  
+    <xs:simpleType>
+      <xs:restriction base='xs:NMTOKEN'>
+        <xs:enumeration value='horizontal' />
+        <xs:enumeration value='none' />
+        <xs:enumeration value='vertical' />
+      </xs:restriction>
+    </xs:simpleType>
+  
+</xs:attribute>
+<xs:attribute name='fadingEdgeLength' type='xs:string' />
+<xs:attribute name='filterTouchesWhenObscured' type='xs:string' />
+<xs:attribute name='fitsSystemWindows'>
+  <xs:simpleType><xs:union memberTypes='xs:string'>
+    <xs:simpleType>
+      <xs:restriction base='xs:NMTOKEN'>
+        <xs:enumeration value='true' />
+        <xs:enumeration value='false' />
+      </xs:restriction>
+    </xs:simpleType>
+  </xs:union></xs:simpleType>
+</xs:attribute>
+<xs:attribute name='focusable'>
+  <xs:simpleType><xs:union memberTypes='xs:string'>
+    <xs:simpleType>
+      <xs:restriction base='xs:NMTOKEN'>
+        <xs:enumeration value='true' />
+        <xs:enumeration value='false' />
+      </xs:restriction>
+    </xs:simpleType>
+  </xs:union></xs:simpleType>
+</xs:attribute>
+<xs:attribute name='focusableInTouchMode'>
+  <xs:simpleType><xs:union memberTypes='xs:string'>
+    <xs:simpleType>
+      <xs:restriction base='xs:NMTOKEN'>
+        <xs:enumeration value='true' />
+        <xs:enumeration value='false' />
+      </xs:restriction>
+    </xs:simpleType>
+  </xs:union></xs:simpleType>
+</xs:attribute>
+<xs:attribute name='hapticFeedbackEnabled'>
+  <xs:simpleType><xs:union memberTypes='xs:string'>
+    <xs:simpleType>
+      <xs:restriction base='xs:NMTOKEN'>
+        <xs:enumeration value='true' />
+        <xs:enumeration value='false' />
+      </xs:restriction>
+    </xs:simpleType>
+  </xs:union></xs:simpleType>
+</xs:attribute>
+<xs:attribute name='isScrollContainer'>
+  <xs:simpleType><xs:union memberTypes='xs:string'>
+    <xs:simpleType>
+      <xs:restriction base='xs:NMTOKEN'>
+        <xs:enumeration value='true' />
+        <xs:enumeration value='false' />
+      </xs:restriction>
+    </xs:simpleType>
+  </xs:union></xs:simpleType>
+</xs:attribute>
+<xs:attribute name='keepScreenOn'>
+  <xs:simpleType><xs:union memberTypes='xs:string'>
+    <xs:simpleType>
+      <xs:restriction base='xs:NMTOKEN'>
+        <xs:enumeration value='true' />
+        <xs:enumeration value='false' />
+      </xs:restriction>
+    </xs:simpleType>
+  </xs:union></xs:simpleType>
+</xs:attribute>
+<xs:attribute name='layerType' type='xs:string' />
+<xs:attribute name='longClickable'>
+  <xs:simpleType><xs:union memberTypes='xs:string'>
+    <xs:simpleType>
+      <xs:restriction base='xs:NMTOKEN'>
+        <xs:enumeration value='true' />
+        <xs:enumeration value='false' />
+      </xs:restriction>
+    </xs:simpleType>
+  </xs:union></xs:simpleType>
+</xs:attribute>
+<xs:attribute name='nextFocusDown' type='xs:string' />
+<xs:attribute name='nextFocusForward' type='xs:string' />
+<xs:attribute name='nextFocusLeft' type='xs:string' />
+<xs:attribute name='nextFocusRight' type='xs:string' />
+<xs:attribute name='nextFocusUp' type='xs:string' />
+<xs:attribute name='overScrollMode' type='xs:string' />
+<xs:attribute name='padding' type='xs:string' />
+<xs:attribute name='paddingBottom' type='xs:string' />
+<xs:attribute name='paddingLeft' type='xs:string' />
+<xs:attribute name='paddingRight' type='xs:string' />
+<xs:attribute name='paddingTop' type='xs:string' />
+<xs:attribute name='requiresFadingEdge' type='xs:string' />
+<xs:attribute name='rotation' type='xs:string' />
+<xs:attribute name='rotationX' type='xs:string' />
+<xs:attribute name='rotationY' type='xs:string' />
+<xs:attribute name='saveEnabled'>
+  <xs:simpleType><xs:union memberTypes='xs:string'>
+    <xs:simpleType>
+      <xs:restriction base='xs:NMTOKEN'>
+        <xs:enumeration value='true' />
+        <xs:enumeration value='false' />
+      </xs:restriction>
+    </xs:simpleType>
+  </xs:union></xs:simpleType>
+</xs:attribute>
+<xs:attribute name='scaleX' type='xs:string' />
+<xs:attribute name='scaleY' type='xs:string' />
+<xs:attribute name='scrollX' type='xs:string' />
+<xs:attribute name='scrollY' type='xs:string' />
+<xs:attribute name='scrollbarAlwaysDrawHorizontalTrack'>
+  <xs:simpleType><xs:union memberTypes='xs:string'>
+    <xs:simpleType>
+      <xs:restriction base='xs:NMTOKEN'>
+        <xs:enumeration value='true' />
+        <xs:enumeration value='false' />
+      </xs:restriction>
+    </xs:simpleType>
+  </xs:union></xs:simpleType>
+</xs:attribute>
+<xs:attribute name='scrollbarAlwaysDrawVerticalTrack'>
+  <xs:simpleType><xs:union memberTypes='xs:string'>
+    <xs:simpleType>
+      <xs:restriction base='xs:NMTOKEN'>
+        <xs:enumeration value='true' />
+        <xs:enumeration value='false' />
+      </xs:restriction>
+    </xs:simpleType>
+  </xs:union></xs:simpleType>
+</xs:attribute>
+<xs:attribute name='scrollbarDefaultDelayBeforeFade' type='xs:string' />
+<xs:attribute name='scrollbarFadeDuration' type='xs:string' />
+<xs:attribute name='scrollbarSize' type='xs:string' />
+<xs:attribute name='scrollbarStyle'>
+  
+    <xs:simpleType>
+      <xs:restriction base='xs:NMTOKEN'>
+        <xs:enumeration value='insideInset' />
+        <xs:enumeration value='insideOverlay' />
+        <xs:enumeration value='outsideInset' />
+        <xs:enumeration value='outsideOverlay' />
+      </xs:restriction>
+    </xs:simpleType>
+  
+</xs:attribute>
+<xs:attribute name='scrollbarThumbHorizontal' type='xs:string' />
+<xs:attribute name='scrollbarThumbVertical' type='xs:string' />
+<xs:attribute name='scrollbarTrackHorizontal' type='xs:string' />
+<xs:attribute name='scrollbarTrackVertical' type='xs:string' />
+<xs:attribute name='scrollbars'>
+  <xs:simpleType><xs:union memberTypes='xs:string'>
+    <xs:simpleType>
+      <xs:restriction base='xs:NMTOKEN'>
+        <xs:enumeration value='horizontal' />
+        <xs:enumeration value='none' />
+        <xs:enumeration value='vertical' />
+      </xs:restriction>
+    </xs:simpleType>
+  </xs:union></xs:simpleType>
+</xs:attribute>
+<xs:attribute name='soundEffectsEnabled'>
+  <xs:simpleType><xs:union memberTypes='xs:string'>
+    <xs:simpleType>
+      <xs:restriction base='xs:NMTOKEN'>
+        <xs:enumeration value='true' />
+        <xs:enumeration value='false' />
+      </xs:restriction>
+    </xs:simpleType>
+  </xs:union></xs:simpleType>
+</xs:attribute>
+<xs:attribute name='transformPivotX' type='xs:string' />
+<xs:attribute name='transformPivotY' type='xs:string' />
+<xs:attribute name='translationX' type='xs:string' />
+<xs:attribute name='translationY' type='xs:string' />
+<xs:attribute name='verticalScrollbarPosition' type='xs:string' />
+<xs:attribute name='visibility'>
+  
+    <xs:simpleType>
+      <xs:restriction base='xs:NMTOKEN'>
+        <xs:enumeration value='gone' />
+        <xs:enumeration value='invisible' />
+        <xs:enumeration value='visible' />
+      </xs:restriction>
+    </xs:simpleType>
+  
+</xs:attribute>
+<xs:attribute name='addStatesFromChildren'>
+  <xs:simpleType><xs:union memberTypes='xs:string'>
+    <xs:simpleType>
+      <xs:restriction base='xs:NMTOKEN'>
+        <xs:enumeration value='true' />
+        <xs:enumeration value='false' />
+      </xs:restriction>
+    </xs:simpleType>
+  </xs:union></xs:simpleType>
+</xs:attribute>
+<xs:attribute name='alwaysDrawnWithCache'>
+  <xs:simpleType><xs:union memberTypes='xs:string'>
+    <xs:simpleType>
+      <xs:restriction base='xs:NMTOKEN'>
+        <xs:enumeration value='true' />
+        <xs:enumeration value='false' />
+      </xs:restriction>
+    </xs:simpleType>
+  </xs:union></xs:simpleType>
+</xs:attribute>
+<xs:attribute name='animateLayoutChanges' type='xs:string' />
+<xs:attribute name='animationCache'>
+  <xs:simpleType><xs:union memberTypes='xs:string'>
+    <xs:simpleType>
+      <xs:restriction base='xs:NMTOKEN'>
+        <xs:enumeration value='true' />
+        <xs:enumeration value='false' />
+      </xs:restriction>
+    </xs:simpleType>
+  </xs:union></xs:simpleType>
+</xs:attribute>
+<xs:attribute name='clipChildren'>
+  <xs:simpleType><xs:union memberTypes='xs:string'>
+    <xs:simpleType>
+      <xs:restriction base='xs:NMTOKEN'>
+        <xs:enumeration value='true' />
+        <xs:enumeration value='false' />
+      </xs:restriction>
+    </xs:simpleType>
+  </xs:union></xs:simpleType>
+</xs:attribute>
+<xs:attribute name='clipToPadding'>
+  <xs:simpleType><xs:union memberTypes='xs:string'>
+    <xs:simpleType>
+      <xs:restriction base='xs:NMTOKEN'>
+        <xs:enumeration value='true' />
+        <xs:enumeration value='false' />
+      </xs:restriction>
+    </xs:simpleType>
+  </xs:union></xs:simpleType>
+</xs:attribute>
+<xs:attribute name='descendantFocusability'>
+  
+    <xs:simpleType>
+      <xs:restriction base='xs:NMTOKEN'>
+        <xs:enumeration value='afterDescendants' />
+        <xs:enumeration value='beforeDescendants' />
+        <xs:enumeration value='blocksDescendants' />
+      </xs:restriction>
+    </xs:simpleType>
+  
+</xs:attribute>
+<xs:attribute name='layoutAnimation' type='xs:string' />
+<xs:attribute name='persistentDrawingCache'>
+  <xs:simpleType><xs:union memberTypes='xs:string'>
+    <xs:simpleType>
+      <xs:restriction base='xs:NMTOKEN'>
+        <xs:enumeration value='all' />
+        <xs:enumeration value='animation' />
+        <xs:enumeration value='none' />
+        <xs:enumeration value='scrolling' />
+      </xs:restriction>
+    </xs:simpleType>
+  </xs:union></xs:simpleType>
+</xs:attribute>
+<xs:attribute name='splitMotionEvents' type='xs:string' />
+<xs:attribute name='layout_margin' type='xs:string' />
+<xs:attribute name='layout_marginBottom' type='xs:string' />
+<xs:attribute name='layout_marginLeft' type='xs:string' />
+<xs:attribute name='layout_marginRight' type='xs:string' />
+<xs:attribute name='layout_marginTop' type='xs:string' />
+<xs:attribute name='inflatedId' type='xs:string' />
+<xs:attribute name='streamType' type='xs:string' />
+<xs:attribute name='author' type='xs:string' />
+<xs:attribute name='thumbnail' type='xs:string' />
+<xs:attribute name='staticWallpaperPreview' type='xs:string' />
+<xs:attribute name='windowMinWidthMajor' type='xs:string' />
+<xs:attribute name='windowMinWidthMinor' type='xs:string' />
+<xs:attribute name='activityCloseEnterAnimation' type='xs:string' />
+<xs:attribute name='activityCloseExitAnimation' type='xs:string' />
+<xs:attribute name='activityOpenEnterAnimation' type='xs:string' />
+<xs:attribute name='activityOpenExitAnimation' type='xs:string' />
+<xs:attribute name='taskCloseEnterAnimation' type='xs:string' />
+<xs:attribute name='taskCloseExitAnimation' type='xs:string' />
+<xs:attribute name='taskOpenEnterAnimation' type='xs:string' />
+<xs:attribute name='taskOpenExitAnimation' type='xs:string' />
+<xs:attribute name='taskToBackEnterAnimation' type='xs:string' />
+<xs:attribute name='taskToBackExitAnimation' type='xs:string' />
+<xs:attribute name='taskToFrontEnterAnimation' type='xs:string' />
+<xs:attribute name='taskToFrontExitAnimation' type='xs:string' />
+<xs:attribute name='wallpaperCloseEnterAnimation' type='xs:string' />
+<xs:attribute name='wallpaperCloseExitAnimation' type='xs:string' />
+<xs:attribute name='wallpaperIntraCloseEnterAnimation' type='xs:string' />
+<xs:attribute name='wallpaperIntraCloseExitAnimation' type='xs:string' />
+<xs:attribute name='wallpaperIntraOpenEnterAnimation' type='xs:string' />
+<xs:attribute name='wallpaperIntraOpenExitAnimation' type='xs:string' />
+<xs:attribute name='wallpaperOpenEnterAnimation' type='xs:string' />
+<xs:attribute name='wallpaperOpenExitAnimation' type='xs:string' />
+<xs:attribute name='windowEnterAnimation' type='xs:string' />
+<xs:attribute name='windowExitAnimation' type='xs:string' />
+<xs:attribute name='windowHideAnimation' type='xs:string' />
+<xs:attribute name='windowShowAnimation' type='xs:string' />
+</xs:schema>
